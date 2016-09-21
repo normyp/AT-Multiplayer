@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<master type="pkg" id="NPXX51362">
+  <item type="app" id="ED1633-NPXX51362_00-0000000000000000">
+    <spec version="1.93">
+      <general_info>
+        <general>
+          <info name="category" desc="Category">gd</info>
+          <info name="content_id" desc="Content ID">ED1633-NPXX51362_00-0000000000000000</info>
+          <info name="title_id" desc="Title ID">NPXX51362</info>
+          <info name="version" desc="Master Version">01.00</info>
+          <info name="app_type" desc="Application Type">Paid Standalone Full App</info>
+          <info name="app_ver" desc="Application Version">01.00</info>
+          <info name="system_ver" desc="Required System Software Version">02.508</info>
+          <info name="c_date" desc="Creation Date">2016-02-15</info>
+          <info name="sdk_ver" desc="SDK Version">02.508.000</info>
+        </general>
+      </general_info>
+      <submission_items_info>
+        <files>
+          <file path="sym_elf/00000006.elf"/>
+          <file path="sym_elf/00000026.elf"/>
+          <file path="sym_elf/00000027.elf"/>
+          <file path="sym_elf/00000036.elf"/>
+          <file path="sym_elf/00000037.elf"/>
+          <file path="sym_elf/00000038.elf"/>
+          <file path="sym_elf/00000039.elf"/>
+          <file path="sym_elf/00000040.elf"/>
+          <file path="sym_elf/00000041.elf"/>
+          <file path="sym_elf/00000042.elf"/>
+          <file path="sym_elf/00000043.elf"/>
+          <file path="sym_elf/00000044.elf"/>
+          <file path="sym_elf/00000045.elf"/>
+          <file path="verify.log"/>
+        </files>
+      </submission_items_info>
+      <elf_info>
+        <elf id="00000006" target_path="eboot.bin">
+          <lib name="crt1" version="02.508.051"/>
+          <lib name="crtbegin" version="02.508.051"/>
+          <lib name="crtend" version="02.508.051"/>
+          <lib name="crti" version="02.508.051"/>
+          <lib name="crtn" version="02.508.051"/>
+          <lib name="libSceAppContent_stub_weak" version="02.508.051"/>
+          <lib name="libSceAudio3d_stub_weak" version="02.508.051"/>
+          <lib name="libSceAudioIn_stub_weak" version="02.508.051"/>
+          <lib name="libSceAudioOut_stub_weak" version="02.508.051"/>
+          <lib name="libSceAvPlayer_stub_weak" version="02.508.051"/>
+          <lib name="libSceCommonDialog_stub_weak" version="02.508.051"/>
+          <lib name="libSceFios2_stub_weak" version="02.508.051"/>
+          <lib name="libSceGnm" version="02.508.091"/>
+          <lib name="libSceGnmDriver_stub_weak" version="02.508.051"/>
+          <lib name="libSceGnmx" version="02.508.091"/>
+          <lib name="libSceGpuAddress" version="02.508.051"/>
+          <lib name="libSceHttp_stub_weak" version="02.508.051"/>
+          <lib name="libSceIme_stub_weak" version="02.508.051"/>
+          <lib name="libSceMove_stub_weak" version="02.508.051"/>
+          <lib name="libSceNetCtl_stub_weak" version="02.508.051"/>
+          <lib name="libSceNet_stub_weak" version="02.508.051"/>
+          <lib name="libScePad_stub_weak" version="02.508.051"/>
+          <lib name="libScePosix_stub_weak" version="02.508.051"/>
+          <lib name="libSceRtc_stub_weak" version="02.508.051"/>
+          <lib name="libSceSaveData_stub_weak" version="02.508.051"/>
+          <lib name="libSceSha1" version="02.508.051"/>
+          <lib name="libSceShaderBinary" version="02.508.061"/>
+          <lib name="libSceSsl_stub_weak" version="02.508.051"/>
+          <lib name="libSceSysmodule_stub_weak" version="02.508.051"/>
+          <lib name="libSceSystemService_stub_weak" version="02.508.051"/>
+          <lib name="libSceUserService_stub_weak" version="02.508.051"/>
+          <lib name="libSceVideoOut_stub_weak" version="02.508.051"/>
+          <lib name="libSceWebBrowserDialog_stub_weak" version="02.508.051"/>
+          <lib name="libc_stub_weak" version="02.508.051"/>
+          <lib name="libkernel_stub_weak" version="02.508.051"/>
+        </elf>
+        <elf id="00000026" target_path="Media/Modules/mono-ps4.sprx">
+          <lib name="crtbeginS" version="02.508.051"/>
+          <lib name="crtendS" version="02.508.051"/>
+          <lib name="crti" version="02.508.051"/>
+          <lib name="crtn" version="02.508.051"/>
+          <lib name="libSceNet_stub_weak" version="02.508.051"/>
+          <lib name="libScePosix_stub_weak" version="02.508.051"/>
+          <lib name="libSceRtc_stub_weak" version="02.508.051"/>
+          <lib name="libc_stub_weak" version="02.508.051"/>
+          <lib name="libkernel_stub_weak" version="02.508.051"/>
+          <lib name="libkernel_unity_stub_weak" version="02.508.051"/>
+        </elf>
+        <elf id="00000027" target_path="Media/Modules/MonoAssembliesPS4.prx">
+          <lib name="crtbeginS" version="02.508.051"/>
+          <lib name="crtendS" version="02.508.051"/>
+          <lib name="crti" version="02.508.051"/>
+          <lib name="crtn" version="02.508.051"/>
+          <lib name="libc_stub_weak" version="02.508.051"/>
+          <lib name="libkernel_stub_weak" version="02.508.051"/>
+        </elf>
+        <elf id="00000036" target_path="sce_module/libc.prx">
+          <lib name="libc" version="02.508.111"/>
+        </elf>
+        <elf id="00000037" target_path="sce_module/libSceAudioLatencyEstimation.prx">
+          <lib name="libSceAudioLatencyEstimation" version="02.508.051"/>
+        </elf>
+        <elf id="00000038" target_path="sce_module/libSceFace.prx">
+          <lib name="libSceFace" version="02.508.051"/>
+        </elf>
+        <elf id="00000039" target_path="sce_module/libSceFaceTracker.prx">
+          <lib name="libSceFaceTracker" version="02.508.051"/>
+        </elf>
+        <elf id="00000040" target_path="sce_module/libSceFios2.prx">
+          <lib name="libSceFios2" version="02.508.111"/>
+        </elf>
+        <elf id="00000041" target_path="sce_module/libSceHand.prx">
+          <lib name="libSceHand" version="02.508.051"/>
+        </elf>
+        <elf id="00000042" target_path="sce_module/libSceHandTracker.prx">
+          <lib name="libSceHandTracker" version="02.508.051"/>
+        </elf>
+        <elf id="00000043" target_path="sce_module/libSceHeadTracker.prx">
+          <lib name="libSceHeadTracker" version="02.508.051"/>
+        </elf>
+        <elf id="00000044" target_path="sce_module/libSceS3DConversion.prx">
+          <lib name="libSceS3DConversion" version="02.508.051"/>
+        </elf>
+        <elf id="00000045" target_path="sce_module/libSceSmart.prx">
+          <lib name="libSceSmart" version="02.508.051"/>
+        </elf>
+      </elf_info>
+      <proj_info>
+        <psproject fmt="gp4" version="1000">
+          <volume>
+            <volume_type>pkg_ps4_app</volume_type>
+            <volume_id>&#x0a;    </volume_id>
+            <volume_ts>2016-02-15 11:28:37</volume_ts>
+            <package content_id="ED1633-NPXX51362_00-0000000000000000" passcode="*" storage_type="digital50" app_type="full"/>
+            <chunk_info chunk_count="1" scenario_count="1">
+              <chunks>
+                <chunk id="0" layer_no="0" label="Chunk #0"/>
+              </chunks>
+              <scenarios default_id="0">
+                <scenario id="0" type="sp" initial_chunk_count="1" label="Scenario #0">0</scenario>
+              </scenarios>
+            </chunk_info>
+          </volume>
+          <files img_no="0">
+            <file targ_path="sce_sys/keystone" src_type="src_mem" pfs_compression="enable"/>
+            <file targ_path="sce_sys/about/right.sprx" src_type="src_mem"/>
+            <file targ_path="sce_sys/icon0.dds" orig_path="*"/>
+            <file targ_path="sce_sys/pic0.dds" orig_path="*"/>
+            <file targ_path="sce_sys/pic1.dds" orig_path="*"/>
+            <file targ_path="sce_discmap.plt" src_type="src_mem"/>
+            <file targ_path="eboot.bin" orig_path="*"/>
+            <file targ_path="Media/mainData" orig_path="*"/>
+            <file targ_path="Media/sharedassets0.resource" orig_path="*"/>
+            <file targ_path="Media/sharedassets0.assets" orig_path="*"/>
+            <file targ_path="Media/Managed/UnityEngine.dll" orig_path="*"/>
+            <file targ_path="Media/Managed/Assembly-CSharp-firstpass.dll" orig_path="*"/>
+            <file targ_path="Media/Managed/Assembly-CSharp.dll" orig_path="*"/>
+            <file targ_path="Media/Managed/UnityEngine.UI.dll" orig_path="*"/>
+            <file targ_path="Media/Managed/UnityEngine.Networking.dll" orig_path="*"/>
+            <file targ_path="Media/Managed/Mono.Posix.dll" orig_path="*"/>
+            <file targ_path="Media/Managed/Mono.Security.dll" orig_path="*"/>
+            <file targ_path="Media/Managed/System.Configuration.dll" orig_path="*"/>
+            <file targ_path="Media/Managed/System.Core.dll" orig_path="*"/>
+            <file targ_path="Media/Managed/System.Security.dll" orig_path="*"/>
+            <file targ_path="Media/Managed/System.Xml.dll" orig_path="*"/>
+            <file targ_path="Media/Managed/System.dll" orig_path="*"/>
+            <file targ_path="Media/Managed/mscorlib.dll" orig_path="*"/>
+            <file targ_path="Media/Managed/mono/2.0/machine.config" orig_path="*"/>
+            <file targ_path="Media/Resources/unity_builtin_extra" orig_path="*"/>
+            <file targ_path="Media/Resources/unity default resources" orig_path="*"/>
+            <file targ_path="Media/Modules/mono-ps4.sprx" orig_path="*"/>
+            <file targ_path="Media/Modules/MonoAssembliesPS4.prx" orig_path="*"/>
+            <file targ_path="sce_sys/icon0.png" orig_path="*"/>
+            <file targ_path="sce_sys/pic0.png" orig_path="*"/>
+            <file targ_path="sce_sys/pic1.png" orig_path="*"/>
+            <file targ_path="sce_sys/nptitle.dat" orig_path="*"/>
+            <file targ_path="sce_sys/pronunciation.xml" orig_path="*"/>
+            <file targ_path="sce_sys/pronunciation.sig" orig_path="*"/>
+            <file targ_path="sce_sys/shareparam.json" orig_path="*"/>
+            <file targ_path="sce_sys/param.sfo" orig_path="*"/>
+            <file targ_path="sce_module/libc.prx" orig_path="*"/>
+            <file targ_path="sce_module/libSceAudioLatencyEstimation.prx" orig_path="*"/>
+            <file targ_path="sce_module/libSceFace.prx" orig_path="*"/>
+            <file targ_path="sce_module/libSceFaceTracker.prx" orig_path="*"/>
+            <file targ_path="sce_module/libSceFios2.prx" orig_path="*"/>
+            <file targ_path="sce_module/libSceHand.prx" orig_path="*"/>
+            <file targ_path="sce_module/libSceHandTracker.prx" orig_path="*"/>
+            <file targ_path="sce_module/libSceHeadTracker.prx" orig_path="*"/>
+            <file targ_path="sce_module/libSceS3DConversion.prx" orig_path="*"/>
+            <file targ_path="sce_module/libSceSmart.prx" orig_path="*"/>
+          </files>
+          <rootdir>
+            <dir targ_name="Media">
+              <dir targ_name="Managed">
+                <dir targ_name="mono">
+                  <dir targ_name="2.0"/>
+                </dir>
+              </dir>
+              <dir targ_name="Modules"/>
+              <dir targ_name="Resources"/>
+            </dir>
+            <dir targ_name="sce_module"/>
+            <dir targ_name="sce_sys">
+              <dir targ_name="about"/>
+            </dir>
+          </rootdir>
+        </psproject>
+      </proj_info>
+      <pronunciation_info>
+        <gamePackage>
+          <language id="18" modified="0">
+            <speechRecognitionWords>
+              <text>Unity</text>
+              <pronunciation>y uw n ax t ih</pronunciation>
+            </speechRecognitionWords>
+          </language>
+        </gamePackage>
+      </pronunciation_info>
+      <playgo_info>
+        <playgo_chunk_dat>
+          <header version_major="0x0000" version_minor="0x0000" n_images="1" n_chunks="1" n_mchunks="1" n_scenarios="1" file_size="416" scenario_default_id="0" attribute="0x0001" content_id="ED1633-NPXX51362_00-0000000000000000"/>
+          <chunks>
+            <chunk id="0" flag="0x80" img_layer_no="0x00" req_locus="0x03" language="0xffffffffffffffff" label="Chunk #0" n_mchunks="1">0</chunk>
+          </chunks>
+          <mchunks>
+            <mchunk id="0" mc_img_no="0" mc_offset="0x0000000000000000" mc_length="0x0000000004100000" imc_offset="0x0000000000000000" imc_length="0x0000000003ef0000"/>
+          </mchunks>
+          <scenarios>
+            <scenario id="0" n_chunks="1" n_ini_chunks="1" scenario_type="1" label="Scenario #0">0</scenario>
+          </scenarios>
+          <initial_payloads>
+            <scenario id="0">
+              <language id="0" initial_payload="68157440"/>
+              <language id="1" initial_payload="68157440"/>
+              <language id="2" initial_payload="68157440"/>
+              <language id="3" initial_payload="68157440"/>
+              <language id="4" initial_payload="68157440"/>
+              <language id="5" initial_payload="68157440"/>
+              <language id="6" initial_payload="68157440"/>
+              <language id="7" initial_payload="68157440"/>
+              <language id="8" initial_payload="68157440"/>
+              <language id="9" initial_payload="68157440"/>
+              <language id="10" initial_payload="68157440"/>
+              <language id="11" initial_payload="68157440"/>
+              <language id="12" initial_payload="68157440"/>
+              <language id="13" initial_payload="68157440"/>
+              <language id="14" initial_payload="68157440"/>
+              <language id="15" initial_payload="68157440"/>
+              <language id="16" initial_payload="68157440"/>
+              <language id="17" initial_payload="68157440"/>
+              <language id="18" initial_payload="68157440"/>
+              <language id="19" initial_payload="68157440"/>
+              <language id="20" initial_payload="68157440"/>
+              <language id="21" initial_payload="68157440"/>
+              <language id="22" initial_payload="68157440"/>
+              <language id="48" initial_payload="68157440"/>
+              <language id="49" initial_payload="68157440"/>
+              <language id="50" initial_payload="68157440"/>
+              <language id="51" initial_payload="68157440"/>
+              <language id="52" initial_payload="68157440"/>
+              <language id="53" initial_payload="68157440"/>
+              <language id="54" initial_payload="68157440"/>
+              <language id="55" initial_payload="68157440"/>
+              <language id="56" initial_payload="68157440"/>
+              <language id="57" initial_payload="68157440"/>
+              <language id="58" initial_payload="68157440"/>
+              <language id="59" initial_payload="68157440"/>
+              <language id="60" initial_payload="68157440"/>
+              <language id="61" initial_payload="68157440"/>
+              <language id="62" initial_payload="68157440"/>
+            </scenario>
+          </initial_payloads>
+        </playgo_chunk_dat>
+      </playgo_info>
+      <pkg_info>
+        <package-configuration version="1.0" type="package-info">
+          <config>
+            <content-id>ED1633-NPXX51362_00-0000000000000000</content-id>
+            <longname>ED1633-NPXX51362_00-0000000000000000-A0100-V0100</longname>
+            <drm-type>PS4</drm-type>
+            <content-type>PS4GD</content-type>
+            <application-type>PaidStandaloneFullApp</application-type>
+            <num-of-images>1</num-of-images>
+            <package-size>68157440</package-size>
+            <version-date>0x20141203</version-date>
+            <version-hash>0x0c123493</version-hash>
+          </config>
+          <digests version="1.0" major-param-version="0">
+            <content-digest>0xF46CFD286853B5F5BECE1C5C86A2FE4DD6D953ECE4640DCB8028FB61BB243034</content-digest>
+            <game-digest>0xC7F5E4BA9BF4E87B22DA1EFAD25E94B817483EBEED74B2FA4B10A2B6F4B4526D</game-digest>
+            <header-digest>0x272840EC51B40A5DACC390F7BEC0EB1D61FF48C1C1E6937DF54AA8AB75FFDA9D</header-digest>
+            <system-digest>0x3A6CE7725E389370ECDCC304335C35699DB62AEE590CB41331087D3FDDEE4C4D</system-digest>
+            <major-param-digest>0x408B092F68FDCC0312B1694930B62B8E920F92A66D38A1A690DFF54CEB206455</major-param-digest>
+            <param-digest>0x95F26DFE516BFCE3D85C142B09CDAC8206F6FCA96FD208E78D9511B90542297E</param-digest>
+            <package-digest>0xDE860F23DF52743AF2C1D4F015A6168852B8B9E18D61D4FA61FBEE35BB59A889</package-digest>
+          </digests>
+          <paramsfo version="0x0101" num="26" key="436" value="864" size="1772">
+            <APP_TYPE type="int" size="4" area="4">0x00000001</APP_TYPE>
+            <APP_VER type="str" size="6" area="8">01.00</APP_VER>
+            <ATTRIBUTE type="int" size="4" area="4">0x00000002</ATTRIBUTE>
+            <CATEGORY type="str" size="3" area="4">gd</CATEGORY>
+            <CONTENT_ID type="str" size="37" area="48">ED1633-NPXX51362_00-0000000000000000</CONTENT_ID>
+            <DOWNLOAD_DATA_SIZE type="int" size="4" area="4">0x00000000</DOWNLOAD_DATA_SIZE>
+            <FORMAT type="str" size="4" area="4">obs</FORMAT>
+            <PARENTAL_LEVEL type="int" size="4" area="4">0x00000001</PARENTAL_LEVEL>
+            <PUBTOOLINFO type="str" size="119" area="512">c_date=20160215,sdk_ver=02508000,st_type=digital50,img0_l0_size=65,img0_l1_size=0,img0_sc_ksize=2560,img0_pc_ksize=576</PUBTOOLINFO>
+            <PUBTOOLVER type="int" size="4" area="4">0x01930000</PUBTOOLVER>
+            <REMOTE_PLAY_KEY_ASSIGN type="int" size="4" area="4">0x00000000</REMOTE_PLAY_KEY_ASSIGN>
+            <SERVICE_ID_ADDCONT_ADD_1 type="str" size="1" area="20"/>
+            <SERVICE_ID_ADDCONT_ADD_2 type="str" size="1" area="20"/>
+            <SERVICE_ID_ADDCONT_ADD_3 type="str" size="1" area="20"/>
+            <SERVICE_ID_ADDCONT_ADD_4 type="str" size="1" area="20"/>
+            <SERVICE_ID_ADDCONT_ADD_5 type="str" size="1" area="20"/>
+            <SERVICE_ID_ADDCONT_ADD_6 type="str" size="1" area="20"/>
+            <SERVICE_ID_ADDCONT_ADD_7 type="str" size="1" area="20"/>
+            <SYSTEM_VER type="int" size="4" area="4">0x02508000</SYSTEM_VER>
+            <TITLE type="str" size="26" area="128">Multiplayer Advanced Tech</TITLE>
+            <TITLE_ID type="str" size="10" area="12">NPXX51362</TITLE_ID>
+            <USER_DEFINED_PARAM_1 type="int" size="4" area="4">0x00000000</USER_DEFINED_PARAM_1>
+            <USER_DEFINED_PARAM_2 type="int" size="4" area="4">0x00000000</USER_DEFINED_PARAM_2>
+            <USER_DEFINED_PARAM_3 type="int" size="4" area="4">0x00000000</USER_DEFINED_PARAM_3>
+            <USER_DEFINED_PARAM_4 type="int" size="4" area="4">0x00000000</USER_DEFINED_PARAM_4>
+            <VERSION type="str" size="6" area="8">01.00</VERSION>
+          </paramsfo>
+        </package-configuration>
+      </pkg_info>
+      <verify_info>
+        <logs>
+          <log code="00001004" level="00">[System Information]</log>
+          <log code="00001101" level="00">Program : Publishing Tools ver.1.93</log>
+          <log code="00001101" level="00">Checker Version : 1.93</log>
+          <log code="00001005" level="00"/>
+          <log code="00001006" level="00">[Target Information]</log>
+          <log code="00001101" level="00">Checked Contents : 1 (app)</log>
+          <log code="00001101" level="00">Title ID : NPXX51362</log>
+          <log code="00001007" level="00"/>
+          <log code="00001008" level="00">[Check Logs]</log>
+          <log code="0000100e" level="00">[Log #000 (app)]</log>
+          <log code="00001001" level="00">Checking single application.</log>
+          <log code="00001001" level="00">Checking directory tree.</log>
+          <log code="00001001" level="00">Checking Package Header files.</log>
+          <log code="00001020" level="00">param.sfo: Param file for PS4 Game Application.</log>
+          <log code="00001022" level="00">param.sfo: Param CATEGORY = gd.</log>
+          <log code="00001022" level="00">param.sfo: Param TITLE_ID = NPXX51362.</log>
+          <log code="00001022" level="00">param.sfo: Param CONTENT_ID = ED1633-NPXX51362_00-0000000000000000.</log>
+          <log code="00001022" level="00">param.sfo: Param PARENTAL_LEVEL = 1.</log>
+          <log code="00001022" level="00">param.sfo: Param APP_TYPE = 0x00000001.</log>
+          <log code="00001020" level="00">param.sfo: Application Type is Paid Standalone Full App.</log>
+          <log code="00001022" level="00">param.sfo: Param ATTRIBUTE = 0x00000002.</log>
+          <log code="00001020" level="00">param.sfo: The Enter Button is assigned to the Cross Button.</log>
+          <log code="00001020" level="00">param.sfo: Required System Software Version is 02.508.</log>
+          <log code="00001022" level="00">param.sfo: Param SYSTEM_VER = 0x02508000.</log>
+          <log code="00001022" level="00">param.sfo: Param VERSION = 01.00.</log>
+          <log code="00001022" level="00">param.sfo: Param APP_VER = 01.00.</log>
+          <log code="00001022" level="00">param.sfo: Param DOWNLOAD_DATA_SIZE = 0MiB.</log>
+          <log code="00001022" level="00">param.sfo: Param REMOTE_PLAY_KEY_ASSIGN = 0x0 (Pattern A).</log>
+          <log code="00001022" level="00">param.sfo: Param USER_DEFINED_PARAM_1 = 0x00000000 (0).</log>
+          <log code="00001022" level="00">param.sfo: Param USER_DEFINED_PARAM_2 = 0x00000000 (0).</log>
+          <log code="00001022" level="00">param.sfo: Param USER_DEFINED_PARAM_3 = 0x00000000 (0).</log>
+          <log code="00001022" level="00">param.sfo: Param USER_DEFINED_PARAM_4 = 0x00000000 (0).</log>
+          <log code="00001020" level="00">param.sfo: SDK version = 02.508.000.</log>
+          <log code="00001020" level="00">param.sfo: Creation Date = 2016-02-15.</log>
+          <log code="00001020" level="00">param.sfo: Storage Type = digital50.</log>
+          <log code="00001020" level="00">param.sfo: Image0 Total Size = 65MiB.</log>
+          <log code="00001020" level="00">param.sfo: Image0 Sc0 Size = 2560KiB.</log>
+          <log code="00001020" level="00">param.sfo: Image0 Cache Size = 576KiB.</log>
+          <log code="00001020" level="00">param.sfo: Publishing Tools Version is 1.93.</log>
+          <log code="00001020" level="00">icon0.png: 512x512/24bit.</log>
+          <log code="00001020" level="00">icon0.dds: 512x512pixels.</log>
+          <log code="00001020" level="00">pic0.png: 1920x1080/24bit.</log>
+          <log code="00001020" level="00">pic0.dds: 1920x1080pixels.</log>
+          <log code="00001020" level="00">pic1.png: 1920x1080/24bit.</log>
+          <log code="00001020" level="00">pic1.dds: 1920x1080pixels.</log>
+          <log code="00001020" level="00">pronunciation.xml: UK English pronunciation text = Unity.</log>
+          <log code="00001020" level="00">pronunciation.sig: Valid signature file.</log>
+          <log code="00001020" level="00">shareparam.json: format version=01.10, file version=01.00.</log>
+          <log code="00001020" level="00">shareparam.json: Google(YouTube) Client ID=solar-nation-796.</log>
+          <log code="00001020" level="00">license.dat: System file.</log>
+          <log code="00001020" level="00">license.info: System file.</log>
+          <log code="00001020" level="00">nptitle.dat: NP Title file.</log>
+          <log code="00001020" level="00">playgo-chunk.dat: PlayGo Chunk information file.</log>
+          <log code="00001001" level="00">chunks=1, mchunks=1, scenarios=1, default_scenario=#0</log>
+          <log code="00001001" level="00">images=1, layers=1</log>
+          <log code="00001001" level="00">Image #0 Layer #0: size=66560KiB</log>
+          <log code="00001001" level="00">PlayGo Languages are not supported.</log>
+          <log code="00001001" level="00">Language Group #0: Default Language</log>
+          <log code="00001001" level="00">Scenario #0: type=0x01 (Single Player)</log>
+          <log code="00001001" level="00">Scenario #0 Language Group #0: Initial Payload = 65MiB</log>
+          <log code="00001020" level="00">playgo-chunk.sha: System file.</log>
+          <log code="00001020" level="00">playgo-manifest.xml: manifest xml file, version=0990.</log>
+          <log code="00001001" level="00">Checking PFS root directory.</log>
+          <log code="00001001" level="00">Checking sce_sys directory.</log>
+          <log code="00001001" level="00">Checking sce_module directory.</log>
+          <log code="00001020" level="00">libc.prx: PS4 SELF file, SDK version = 02.508.</log>
+          <log code="00001021" level="00">libc.prx: 02.508.111 : libc</log>
+          <log code="00001020" level="00">libSceFios2.prx: PS4 SELF file, SDK version = 02.508.</log>
+          <log code="00001021" level="00">libSceFios2.prx: 02.508.111 : libSceFios2</log>
+          <log code="00001020" level="00">libSceFace.prx: PS4 SELF file, SDK version = 02.508.</log>
+          <log code="00001021" level="00">libSceFace.prx: 02.508.051 : libSceFace</log>
+          <log code="00001020" level="00">libSceHand.prx: PS4 SELF file, SDK version = 02.508.</log>
+          <log code="00001021" level="00">libSceHand.prx: 02.508.051 : libSceHand</log>
+          <log code="00001020" level="00">libSceS3DConversion.prx: PS4 SELF file, SDK version = 02.508.</log>
+          <log code="00001021" level="00">libSceS3DConversion.prx: 02.508.051 : libSceS3DConversion</log>
+          <log code="00001020" level="00">libSceSmart.prx: PS4 SELF file, SDK version = 02.508.</log>
+          <log code="00001021" level="00">libSceSmart.prx: 02.508.051 : libSceSmart</log>
+          <log code="00001020" level="00">libSceHeadTracker.prx: PS4 SELF file, SDK version = 02.508.</log>
+          <log code="00001021" level="00">libSceHeadTracker.prx: 02.508.051 : libSceHeadTracker</log>
+          <log code="00001020" level="00">libSceFaceTracker.prx: PS4 SELF file, SDK version = 02.508.</log>
+          <log code="00001021" level="00">libSceFaceTracker.prx: 02.508.051 : libSceFaceTracker</log>
+          <log code="00001020" level="00">libSceHandTracker.prx: PS4 SELF file, SDK version = 02.508.</log>
+          <log code="00001021" level="00">libSceHandTracker.prx: 02.508.051 : libSceHandTracker</log>
+          <log code="00001020" level="00">libSceAudioLatencyEstimation.prx: PS4 SELF file, SDK version = 02.508.</log>
+          <log code="00001021" level="00">libSceAudioLatencyEstimation.prx: 02.508.051 : libSceAudioLatencyEstimation</log>
+          <log code="00001100" level="00">libc version (02.508.111) &lt;= libSceFios2 version (02.508.111).</log>
+          <log code="00001100" level="00">libSceFaceTracker version (02.508.051) &lt;= libSceFace version (02.508.051).</log>
+          <log code="00001020" level="00">sce_discmap.plt: System file, ver=1.</log>
+          <log code="00001020" level="00">eboot.bin: PS4 SELF file, SDK version = 02.508.</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : crt1</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : crtbegin</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : crtend</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : crti</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : crtn</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceAppContent_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceAudio3d_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceAudioIn_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceAudioOut_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceAvPlayer_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceCommonDialog_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceFios2_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.091 : libSceGnm</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceGnmDriver_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.091 : libSceGnmx</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceGpuAddress</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceHttp_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceIme_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceMove_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceNetCtl_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceNet_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libScePad_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libScePosix_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceRtc_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceSaveData_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceSha1</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.061 : libSceShaderBinary</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceSsl_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceSysmodule_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceSystemService_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceUserService_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceVideoOut_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libSceWebBrowserDialog_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libc_stub_weak</log>
+          <log code="00001021" level="00">eboot.bin: 02.508.051 : libkernel_stub_weak</log>
+          <log code="00001020" level="00">MonoAssembliesPS4.prx: PS4 SELF file, SDK version = 02.508.</log>
+          <log code="00001021" level="00">MonoAssembliesPS4.prx: 02.508.051 : crtbeginS</log>
+          <log code="00001021" level="00">MonoAssembliesPS4.prx: 02.508.051 : crtendS</log>
+          <log code="00001021" level="00">MonoAssembliesPS4.prx: 02.508.051 : crti</log>
+          <log code="00001021" level="00">MonoAssembliesPS4.prx: 02.508.051 : crtn</log>
+          <log code="00001021" level="00">MonoAssembliesPS4.prx: 02.508.051 : libc_stub_weak</log>
+          <log code="00001021" level="00">MonoAssembliesPS4.prx: 02.508.051 : libkernel_stub_weak</log>
+          <log code="00001020" level="00">mono-ps4.sprx: PS4 SELF file, SDK version = 02.508.</log>
+          <log code="00001021" level="00">mono-ps4.sprx: 02.508.051 : crtbeginS</log>
+          <log code="00001021" level="00">mono-ps4.sprx: 02.508.051 : crtendS</log>
+          <log code="00001021" level="00">mono-ps4.sprx: 02.508.051 : crti</log>
+          <log code="00001021" level="00">mono-ps4.sprx: 02.508.051 : crtn</log>
+          <log code="00001021" level="00">mono-ps4.sprx: 02.508.051 : libSceNet_stub_weak</log>
+          <log code="00001021" level="00">mono-ps4.sprx: 02.508.051 : libScePosix_stub_weak</log>
+          <log code="00001021" level="00">mono-ps4.sprx: 02.508.051 : libSceRtc_stub_weak</log>
+          <log code="00001021" level="00">mono-ps4.sprx: 02.508.051 : libc_stub_weak</log>
+          <log code="00001021" level="00">mono-ps4.sprx: 02.508.051 : libkernel_stub_weak</log>
+          <log code="00001021" level="00">mono-ps4.sprx: 02.508.051 : libkernel_unity_stub_weak</log>
+          <log code="00001001" level="00">Total number of PFS files/directories = 45.</log>
+          <log code="00001001" level="00">Checking consistency.</log>
+          <log code="00001001" level="00">SDK version = 02.508.</log>
+          <log code="00001001" level="00">Required System Software version = 02.508.</log>
+          <log code="00001001" level="00">Checking image attribute.</log>
+          <log code="00001001" level="00">PFS format = normal.</log>
+          <log code="0000100f" level="00"/>
+          <log code="00001009" level="00"/>
+          <log code="0000100a" level="00">[Check Result]</log>
+          <log code="00001101" level="00">Number of Error(s) : 0</log>
+          <log code="00001101" level="00">Number of Warning(s) : 0</log>
+          <log code="20001101" level="20">Result : OK</log>
+          <log code="0000100b" level="00"/>
+        </logs>
+      </verify_info>
+    </spec>
+  </item>
+</master>
